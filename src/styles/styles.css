@@ -1,0 +1,251 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.main {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    height: 1200px;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 1160px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+}
+
+.sidebar h2 {
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.imagem-pesssoal {
+    height: 240px;
+    width: 240px;
+    margin: 10px;
+    box-shadow: 1px 3px 10px 1px black;
+    border-radius: 50%;
+    border: 1px solid #151515;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links p {
+    margin: 10px 0;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links-icons {
+    height: 24px;
+    margin: 0 0 0 14px;
+}
+
+.lista-tecnologias{
+    margin: 10px 24px;
+    padding: 10px 0;
+}
+.lista-habilidades{
+    margin: 10px 24px;
+    padding: 10px 0;
+}
+
+.lista-idiomas {
+    margin: 10px 24px;
+    padding: 10px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 10px;
+    width: 100vh;
+}
+
+.sobre {
+    box-shadow: 0 3px 14px black;
+}
+
+.sobre-icon {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.sobre-img {
+    height: 45px;
+    margin: 10px;
+}
+
+.sobre h2 {
+    font-size: 30px;
+}
+
+.sobre p {
+    padding: 10px;
+    text-align: start;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+.xp {
+    box-shadow: 0 3px 10px black;
+
+}
+
+.xp-icon {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.xp-img {
+    height: 50px;
+    margin: 10px;
+}
+
+.xp h2 {
+    font-size: 30px;
+}
+
+.xp ul {
+    margin: 10px 22px;
+    padding: 10px 0;
+}
+
+.xp ul li {
+    margin: 8px;
+}
+
+.xp ul a {
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+
+.xp ul a:hover {
+    text-decoration: underline;
+}
+
+.xp p {
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 16px;
+    color: rgb(14, 13, 13);
+}
+
+.edu {
+    box-shadow: 0 3px 10px black;
+}
+
+.edu-icon {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.edu-img {
+    height: 56px;
+    margin: 10px;
+}
+
+.edu h2 {
+    font-size: 30px;
+}
+
+.edu ul {
+    margin: 10px 22px;
+    padding: 10px 0;
+}
+
+.edu ul li {
+    margin: 8px;
+
+}
+
+.edu ul a {
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+.edu ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+.git {
+    box-shadow: 0 3px 10px black;
+}
+
+.git-icon {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.git-img {
+    height: 56px;
+    margin: 10px;
+}
+
+.git h2 {
+    font-size: 30px;
+}
+
+.git ul {
+    margin: 10px 22px;
+    padding: 10px 0;
+}
+
+.git ul li {
+    margin: 8px;
+    font-size: 16px;
+}
+
+.git ul a {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+
+.git ul a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    padding: 16px;
+}
+
+footer {
+    padding: 2px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
