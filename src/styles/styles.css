@@ -15,7 +15,7 @@ body {
 .sidebar {
     display: flex;
     flex-direction: column;
-    height: 75.5em;
+    height: 77em;
     width: 25%;
     border-radius: 10px;
     box-shadow: 0 3px 10px black;
