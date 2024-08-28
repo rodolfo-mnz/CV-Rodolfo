@@ -4,24 +4,27 @@ body {
 }
 
 .main {
+    min-height: 100vh;
     display: flex;
     padding: 20px;
     gap: 10px;
     justify-content: center;
-    height: 1200px;
 }
 
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    height: 77em;
+    height: 91em;
     width: 25%;
     border-radius: 10px;
     box-shadow: 0 3px 10px black;
+    background-color: #282828;
+    color: white;
 }
 
 .sidebar h2 {
+    font-family: "Poppins";
     font-weight: 500;
     margin: 10px 0;
     font-size: 30px;
@@ -31,25 +34,29 @@ body {
     height: 240px;
     width: 240px;
     margin: 10px;
-    box-shadow: 1px 3px 10px 1px black;
+    box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
-    border: 1px solid #151515;
+    border: 3px solid #0e0d0d;
 }
 
 .links a {
+    font-family: "Poppins";
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
     gap: 10px;
+    color: white;
 }
 
 .links p {
+    font-family: "Poppins";
     margin: 10px 0;
 }
 
 .links a:hover {
     text-decoration: underline;
+    color: purple;
 }
 
 .links-icons {
@@ -96,6 +103,7 @@ body {
 
 .sobre h2 {
     font-size: 30px;
+    font-family: "Poppins"
 }
 
 .sobre p {
@@ -103,6 +111,7 @@ body {
     text-align: start;
     font-size: 16px;
     margin: 10px 5px;
+    font-family: "Poppins"
 }
 
 .xp {
@@ -123,6 +132,7 @@ body {
 
 .xp h2 {
     font-size: 30px;
+    font-family: "Poppins"
 }
 
 .xp ul {
@@ -137,10 +147,13 @@ body {
 .xp ul a {
     text-decoration: none;
     color: rgb(14, 13, 13);
+    font-size: 24px;
+    font-family: "Poppins"
 }
 
 .xp ul a:hover {
     text-decoration: underline;
+    color: purple;
 }
 
 .xp p {
@@ -148,6 +161,7 @@ body {
     margin: 10px 5px;
     font-size: 16px;
     color: rgb(14, 13, 13);
+    font-family: "Poppins"
 }
 
 .edu {
@@ -167,6 +181,7 @@ body {
 
 .edu h2 {
     font-size: 30px;
+    font-family: "Poppins"
 }
 
 .edu ul {
@@ -183,10 +198,12 @@ body {
     text-decoration: none;
     color: rgb(14, 13, 13);
     font-size: 16px;
+    font-family: "Poppins"
 }
 
 .edu ul a:hover {
     text-decoration: underline;
+    color: purple;
 }
 
 
@@ -208,6 +225,7 @@ body {
 
 .git h2 {
     font-size: 30px;
+    font-family: "Poppins"
 }
 
 .git ul {
@@ -224,29 +242,33 @@ body {
     font-size: 16px;
     text-decoration: none;
     color: rgb(14, 13, 13);
+    font-family: "Poppins"
 }
 
 .git ul a:hover {
     text-decoration: underline;
+    color: purple;
 }
 
 h2 {
     padding: 16px;
+    font-family: "Poppins"
 }
 
 footer {
-    height: 50%;
-    margin-top: 60px;
-    padding: 2px;
+    /* border: 4px solid red; */
     text-align: center;
-
+    /* margin-top: 280px; */
+    
 }
 
 footer a {
     color: rgb(14, 13, 13);
     text-decoration: none;
+    font-family: "Poppins";
 }
 
 footer a:hover{
     text-decoration: underline;
+    color: rgb(134, 2, 134);
 }
